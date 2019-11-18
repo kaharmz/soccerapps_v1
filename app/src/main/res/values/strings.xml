@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Soccer Apps</string>
+    <string name="favorite">Favorite</string>
+
+    <string-array name="league_id">
+        <item>4328</item>
+        <item>4334</item>
+        <item>4331</item>
+        <item>4332</item>
+        <item>4335</item>
+        <item>4346</item>
+        <item>4344</item>
+        <item>4356</item>
+        <item>4330</item>
+        <item>4396</item>
+    </string-array>
+
+    <array name="league_images">
+        <item>@drawable/english_premier_league</item>
+        <item>@drawable/french_ligue</item>
+        <item>@drawable/german_bundesliga</item>
+        <item>@drawable/italian_serie_a</item>
+        <item>@drawable/spanish_la_liga</item>
+        <item>@drawable/american_mayor_league</item>
+        <item>@drawable/portugeuese_premiera_liga</item>
+        <item>@drawable/australian_a_league</item>
+        <item>@drawable/scotish_premier_league</item>
+        <item>@drawable/english_league</item>
+    </array>
+
+    <string-array name="league_name">
+        <item>English Premier League</item>
+        <item>French Ligue 1</item>
+        <item>German Bundesliga</item>
+        <item>Italian Serie A</item>
+        <item>Spanish La Liga</item>
+        <item>American Mayor League</item>
+        <item>Protugeuese Premiera Liga</item>
+        <item>Australian A League</item>
+        <item>Scotish Premier League</item>
+        <item>English League 1</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="todo">TODO</string>
+    <string name="text_versus">:</string>
+    <string name="lineups_text">Lineups</string>
+    <string name="goal_keeper_text">Goal Keeper</string>
+    <string name="defense_text">Defense</string>
+    <string name="midfielders_text">Midfielders</string>
+    <string name="forwards_text">Forwards</string>
+    <string name="club_name_text">Club Name</string>
+    <string name="match_details_text">Match Details</string>
+    <string name="goal_text">Goal</string>
+    <string name="red_card_text">Red Card</string>
+    <string name="yellow_cards_text">Yellow cards</string>
+    <string name="shoot_text">Shoot</string>
+    <string name="subtitutes_text">Subtitutes</string>
+    <string name="formation_text">Formation</string>
+    <string name="add_to_favorite_text">Add to favorite</string>
+    <string name="last_match_text">Last match</string>
+    <string name="next_match_text">Next match</string>
+    <string name="search">Search</string>
+    <string name="formed_year">Formed Year</string>
+    <string name="date_first_event">Date First Event</string>
+    <string name="sport">Sport</string>
+    <string name="gender">Gender</string>
+    <string name="country">Country</string>
+    <string name="description">Description</string>
+    <string name="league">League</string>
+    <string name="list_match">List Match</string>
+    <string name="fragment_favorite">Fragment Favorite</string>
+    <string name="fragment_team">Fragment Team</string>
+    <string name="team">Team</string>
+</resources>

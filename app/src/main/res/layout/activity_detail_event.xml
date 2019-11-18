@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <include layout="@layout/match_score" />
+
+        <ProgressBar
+            android:id="@+id/detail_event_progressbar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:elevation="4dp"
+            android:visibility="gone" />
+
+        <include layout="@layout/match_detail" />
+
+        <include layout="@layout/match_lineup" />
+
+        <Button
+            android:id="@+id/add_favorite_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/add_to_favorite_text"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</ScrollView>
